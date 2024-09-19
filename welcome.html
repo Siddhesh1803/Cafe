@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>   <!-- title of wel page -->
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background: url('welcome.png') no-repeat center center fixed;  /*welcom background image*/
+            background-size: cover;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-link {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .login-link:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+    </style>
+</head>
+<body>
+    <div class="background">     <!-- fo backgrond image  -->
+        <a href="login.html" class="login-link">Click here for login</a> <!-- link to loginhtml pagewhen we will click to login in it open new page of login -->
+    </div>
+</body> 
+</html>
